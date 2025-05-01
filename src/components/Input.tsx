@@ -6,7 +6,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   gap: 6px;
   width: 100%;
-  margin-bottom: 7%;
+  margin-bottom: 1%;
 `;
 
 const Label = styled.label`

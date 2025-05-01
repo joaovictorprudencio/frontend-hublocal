@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LoginPage from '../features/auth/pages/LoginPage';
 import ResgisterPage from '../features/auth/pages/RegisterPage';
+import CompaniesPage from '../features/companies/pages/CompaniesPage';
+import LocationsPage from '../features/locations/pages/LocationsPage';
 const AppRoutes = () => {
     return (
         <Router>
@@ -8,8 +10,8 @@ const AppRoutes = () => {
           <Route path="/" element={<LoginPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<ResgisterPage />} />
-          {/* Ex: rota da dashboard */}
-          {/* <Route path="/dashboard" element={<DashboardPage />} /> */}
+          <Route path="/MyCompanies" element={<CompaniesPage />} />
+          <Route path="/company/:companyId/locations" element={<LocationsPage />} />
         </Routes>
       </Router>
     );
