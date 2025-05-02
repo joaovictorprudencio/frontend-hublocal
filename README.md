@@ -1,54 +1,44 @@
-# React + TypeScript + Vite
+<p align="center">
+  <a href="https://react.dev/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="120" alt="React Logo" /></a>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ⚛️ Front-end React + TypeScript + MUI
 
-Currently, two official plugins are available:
+Este é um projeto front-end construído com [React](https://reactjs.org/), utilizando [Material UI (MUI)](https://mui.com/), [TypeScript](https://www.typescriptlang.org/) para tipagem estática e [styled-components](https://styled-components.com/) para estilização.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ✅ [React](https://reactjs.org/)
+- ✅ [TypeScript](https://www.typescriptlang.org/)
+- ✅ [Material UI (MUI)](https://mui.com/)
+- ✅ [styled-components](https://styled-components.com/)
+- ✅ [Vite](https://vitejs.dev/) (opcional, se estiver usando)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📦 Pré-requisitos
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Antes de rodar o projeto, você precisa ter instalado:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- [Node.js](https://nodejs.org/) (v20 ou superior recomendado)
+- [npm](https://www.npmjs.com/)
+
+---
+
+## 🚀 Como rodar?
+
+Siga o passo a passo:
+
+```bash
+# 1. Instale as dependências
+npm install
+
+# 2. Crie o arquivo de variáveis de ambiente
+.env
+com a url da api por exemplo :
+ VITE_API_BASE_URL=http://localhost:3000
+
+# 3. Rode o projeto
+npm run dev
