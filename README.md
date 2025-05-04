@@ -14,7 +14,7 @@ Este é um projeto front-end construído com [React](https://reactjs.org/), util
 - ✅ [TypeScript](https://www.typescriptlang.org/)
 - ✅ [Material UI (MUI)](https://mui.com/)
 - ✅ [styled-components](https://styled-components.com/)
-- ✅ [Vite](https://vitejs.dev/) (opcional, se estiver usando)
+- ✅ [Vite](https://vitejs.dev/) 
 
 ---
 
