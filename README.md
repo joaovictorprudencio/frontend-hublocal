@@ -2,13 +2,13 @@
   <a href="https://react.dev/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="120" alt="React Logo" /></a>
 </p>
 
-# ⚛️ Front-end React + TypeScript + MUI
+#  Front-end React + TypeScript + MUI
 
 Este é um projeto front-end construído com [React](https://reactjs.org/), utilizando [Material UI (MUI)](https://mui.com/), [TypeScript](https://www.typescriptlang.org/) para tipagem estática e [styled-components](https://styled-components.com/) para estilização.
 
 ---
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - ✅ [React](https://reactjs.org/)
 - ✅ [TypeScript](https://www.typescriptlang.org/)
@@ -18,7 +18,7 @@ Este é um projeto front-end construído com [React](https://reactjs.org/), util
 
 ---
 
-## 📦 Pré-requisitos
+##  Pré-requisitos
 
 Antes de rodar o projeto, você precisa ter instalado:
 
@@ -27,7 +27,7 @@ Antes de rodar o projeto, você precisa ter instalado:
 
 ---
 
-## 🚀 Como rodar?
+##  Como rodar?
 
 Siga o passo a passo:
 
